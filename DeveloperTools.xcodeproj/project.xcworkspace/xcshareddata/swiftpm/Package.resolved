@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HTMLString",
+        "repositoryURL": "https://github.com/alexaubry/HTMLString",
+        "state": {
+          "branch": null,
+          "revision": "373048cc4084dd7481c86e3bee41612eff93b14d",
+          "version": "5.0.0"
+        }
+      },
+      {
+        "package": "Kwift",
+        "repositoryURL": "https://github.com/kojirou1994/Kwift",
+        "state": {
+          "branch": null,
+          "revision": "370e9821326c3c8985b644e78dac2f61a683e0bd",
+          "version": "0.8.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
