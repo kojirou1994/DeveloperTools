@@ -9,18 +9,16 @@ struct ToolWorker {
   let worker: (String) -> String
 }
 
-enum Tools: CaseIterable, Identifiable {
-  //    enum Formatters {
+enum Tools: String, CaseIterable, Identifiable {
+
   case json
-  //    }
-  //    enum Coders {
+
   case base64
   case url
   case string
   case htmlEscape
   case stringTransform
   case unicode
-  //    }
 
   var text: LocalizedStringKey {
     switch self {
@@ -71,7 +69,7 @@ extension Data {
         of: "=", with: "")
   }
 }
-// http://baidu.com?q=你妈
+
 extension String {
   public var base64URLEncoded: String {
     return data(using: .utf8)!.base64URLEncodedString()

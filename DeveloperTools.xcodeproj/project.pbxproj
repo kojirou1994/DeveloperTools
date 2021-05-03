@@ -7,27 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E377BAF123E33CC300E09DCB /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E377BAEF23E33CC300E09DCB /* TextViewController.swift */; };
-		E377BAF223E33CC300E09DCB /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E377BAF023E33CC300E09DCB /* TextViewController.xib */; };
 		E39C4B7E23E1789000A1721E /* HTMLString in Frameworks */ = {isa = PBXBuildFile; productRef = E39C4B7D23E1789000A1721E /* HTMLString */; };
+		E3ABD2DA26405EF100793D87 /* DeveloperTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ABD2D926405EF100793D87 /* DeveloperTools.swift */; };
 		E3BE3CCC25C8909000A2943C /* KwiftUtility in Frameworks */ = {isa = PBXBuildFile; productRef = E3BE3CCB25C8909000A2943C /* KwiftUtility */; };
 		E3C5852423DB5C40009ABC69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5852323DB5C40009ABC69 /* AppDelegate.swift */; };
 		E3C5852623DB5C40009ABC69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5852523DB5C40009ABC69 /* ContentView.swift */; };
 		E3C5852823DB5C42009ABC69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C5852723DB5C42009ABC69 /* Assets.xcassets */; };
 		E3C5852B23DB5C42009ABC69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C5852A23DB5C42009ABC69 /* Preview Assets.xcassets */; };
-		E3C5852E23DB5C42009ABC69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C5852C23DB5C42009ABC69 /* Main.storyboard */; };
 		E3C5853723DB5C9B009ABC69 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5853623DB5C9B009ABC69 /* Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E377BAEF23E33CC300E09DCB /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
-		E377BAF023E33CC300E09DCB /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
+		E3ABD2D926405EF100793D87 /* DeveloperTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperTools.swift; sourceTree = "<group>"; };
 		E3C5852023DB5C40009ABC69 /* DeveloperTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveloperTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C5852323DB5C40009ABC69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3C5852523DB5C40009ABC69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3C5852723DB5C42009ABC69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3C5852A23DB5C42009ABC69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E3C5852D23DB5C42009ABC69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3C5852F23DB5C42009ABC69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3C5853023DB5C42009ABC69 /* DeveloperTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeveloperTools.entitlements; sourceTree = "<group>"; };
 		E3C5853623DB5C9B009ABC69 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
@@ -75,11 +71,9 @@
 			children = (
 				E3C5852323DB5C40009ABC69 /* AppDelegate.swift */,
 				E3C5852523DB5C40009ABC69 /* ContentView.swift */,
+				E3ABD2D926405EF100793D87 /* DeveloperTools.swift */,
 				E3C5853623DB5C9B009ABC69 /* Tools.swift */,
 				E3C5852723DB5C42009ABC69 /* Assets.xcassets */,
-				E3C5852C23DB5C42009ABC69 /* Main.storyboard */,
-				E377BAEF23E33CC300E09DCB /* TextViewController.swift */,
-				E377BAF023E33CC300E09DCB /* TextViewController.xib */,
 				E3C5852F23DB5C42009ABC69 /* Info.plist */,
 				E3C5853023DB5C42009ABC69 /* DeveloperTools.entitlements */,
 				E3C5852923DB5C42009ABC69 /* Preview Content */,
@@ -161,10 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3C5852E23DB5C42009ABC69 /* Main.storyboard in Resources */,
 				E3C5852B23DB5C42009ABC69 /* Preview Assets.xcassets in Resources */,
 				E3C5852823DB5C42009ABC69 /* Assets.xcassets in Resources */,
-				E377BAF223E33CC300E09DCB /* TextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,23 +169,12 @@
 			files = (
 				E3C5853723DB5C9B009ABC69 /* Tools.swift in Sources */,
 				E3C5852623DB5C40009ABC69 /* ContentView.swift in Sources */,
+				E3ABD2DA26405EF100793D87 /* DeveloperTools.swift in Sources */,
 				E3C5852423DB5C40009ABC69 /* AppDelegate.swift in Sources */,
-				E377BAF123E33CC300E09DCB /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E3C5852C23DB5C42009ABC69 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3C5852D23DB5C42009ABC69 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E3C5853123DB5C42009ABC69 /* Debug */ = {
@@ -319,6 +300,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"DeveloperTools/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DeveloperTools/Info.plist;
@@ -340,6 +322,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"DeveloperTools/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DeveloperTools/Info.plist;
